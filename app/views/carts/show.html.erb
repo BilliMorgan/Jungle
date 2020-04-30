@@ -52,12 +52,10 @@
     </div>
     </div>
     <% else %>
-      <div class="alert alert-info" role="alert">
-        Your cart still empty,
-        <span>
-          <%= link_to 'let go shoping...', :root %>
-        </span>
-      </div> 
+    <div class="order-summary jumbotron">
+      <h4>Your cart still empty</h4>
+    </div>
+    <a class="btn btn-lg btn-primary" href="/">Continue Shopping</a>
     <% end %>
 
 </section>
