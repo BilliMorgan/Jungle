@@ -11,6 +11,7 @@ RSpec.describe Product, type: :model do
           price: 987.65
       )
       @product.save
+      
       expect(@product).to_not be_valid
     end
 
