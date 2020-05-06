@@ -25,9 +25,28 @@
             <% end %>
           </ul>
         </li>
+
         <li>
           <%= link_to 'About Us', "/about" %>
         </li>
+
+        
+        <li> 
+          <% if current_user %>
+          Signed in as <%= current_user.name %> 
+        </li>
+        <li>
+          <%= link_to "Logout", '/logout' %>
+          <% else %>
+        </li>
+        <li>  
+          <%= link_to 'Login', '/login' %>
+        </li>
+        <li>
+          <%= link_to 'Signup', '/signup' %>
+        <% end %>
+        </li>      
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
        <li class="dropdown">
