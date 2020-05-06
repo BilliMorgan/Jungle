@@ -1,10 +1,11 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2., PostgreSQL 9.x, Bootstrap. 
+
 TDD was used during creating this project as well as RSpec for testing some functionality.
 
 Customer can:
-* sign up account, log in, log out. Data is hushed by bcrypt;
+* sign up account, login, logout. Data is hashed by bcrypt;
 * add items to the cart, change quantity, pay for items using Stripe account.
 
 Admin can:
