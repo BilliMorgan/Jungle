@@ -1,6 +1,7 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2., PostgreSQL 9.x, Bootstrap. 
+Has full functionality including payment method and user authorization. 
 
 TDD was used during creating this project as well as RSpec for testing some functionality.
 
